@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-    <title>세븐틴 랜덤씨피 생성기</title>
+    <title>ff14 랜덤씨피 생성기</title>
     <style>
       :root{--bg:#fff;--fg:#222;--line:#ccc;--accent:#2563eb;--on:#fff;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
       @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#181818;--fg:#eee;--line:#444;--accent:#3b82f6}}
@@ -24,7 +24,7 @@
   </head>
   <body>
   <div class="wrap">
-    <h1>세븐틴 랜덤씨피 생성기</h1>
+    <h1>ff14 랜덤씨피 생성기</h1>
     <button id="btn" type="button">셔플!</button>
     <div id="result">-</div>
     <div class="opts">
@@ -38,19 +38,38 @@
   var left = 0; var right = 0;
   var used = new Set([]);
   var data = {
-    1: "쿱스",
-    2: "정한",
-    3: "슈아",
-    4: "준",
-    5: "호시",
-    6: "원우",
-    7: "우지",
-    8: "명호",
-    9: "민규",
-    10: "도겸",
-    11: "승관",
-    12: "한솔",
-    13: "디노"
+    1: "알피노",
+    2: "알리제",
+    3: "산크레드",
+    4: "위리앙제",
+    5: "야슈톨라",
+    6: "이다",
+    7: "리세",
+    8: "파파리모",
+    9: "타타루",
+    10: "쿠루루",
+    11: "민필리아",
+    12: "에스티니앙",
+    13: "모험가",
+    14: "이젤",
+    15: "오르슈팡",
+    16: "아이메리크",
+    17: "유우기리",
+    18: "고우세츠",
+    19: "포르돌라",
+    20: "그라하",
+    21: "수정공",
+    22: "에멧셀크",
+    23: "제노스",
+    24: "바르샨",
+    25: "우크라마트",
+    26: "굴루자쟈",
+    27: "조라쟈",
+    28: "쿼나",
+    29: "에렌빌",
+    30: "스펜",
+    31: "칼릭스",
+    32: "할마루트"
   }
 
   function getRandomInt(min, max) {
