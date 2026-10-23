@@ -91,10 +91,10 @@
 
     do {
       if (!fixLeft || left == 0) {
-        left = getRandomInt(1, 13);
+        left = getRandomInt(1, Object.keys(data).length);
       }
       if (!fixRight || right == 0) {
-        right = getRandomInt(1, 13);
+        right = getRandomInt(1, Object.keys(data).length);
       }
 
       key = left + "," + right;
